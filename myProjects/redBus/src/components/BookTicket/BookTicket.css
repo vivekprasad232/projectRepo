@@ -1,0 +1,59 @@
+#payheading{
+    width: fit-content;
+    margin: 2vw auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 0.2vw solid black;
+    margin-top: 100px;
+}
+#detailsandpaycontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    width: 60vw;
+    margin: 6vw auto;
+}
+.pt{
+    text-align: center;
+    background-image: linear-gradient(to right ,white,gray);
+}
+.detailsandpay{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.detailschckout{
+    background-color: red;
+}
+.details-item{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    margin: 1vw;
+}
+.pay{
+    background-color: antiquewhite;
+}
+.pay div{
+    margin: 0.5vw auto;
+}
+.pay button{
+    display: block;
+    margin: 0.5vw auto;
+}
+.pay div label,input{
+    width: 10vw;
+    display: block;
+    margin: auto;
+}
+#successful{
+    display: block;
+    margin: 4vw auto;
+    margin-top: 100px;
+}
+.err{
+    width: fit-content;
+    margin: auto;
+    color: red;
+}

@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: green;
+}
+#over{
+    display: none;
+    position: relative;
+    text-align: center;
+    font-size: 400%;
+    color: red;
+    background-color: darkgreen;
+}
+#mgameContainer{
+    background-color: black;
+    margin: auto;
+    display: grid;
+}
+#maincontainer{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#score{
+    height: 90vh;
+    display: grid;
+    font-size: 6rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#score div{
+    height: 7rem;
+    width: 20rem;
+    background-color: darkgreen;
+    color: aquamarine;
+    align-self: flex-start;
+    margin: 0 auto auto auto;
+    text-align: center;
+}
+#score h3{
+    color: white;
+    align-self: flex-end;
+    margin: auto auto 0 auto;
+}
+#game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#gameContainer{
+    border: 1px solid wheat;
+    height:25rem;
+    width: 25rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(40, .625rem);
+    grid-template-rows: repeat(40, .625rem);
+}
+.food{
+    background-color: yellow;
+}
+.snakeBodyPixel{
+    background-color: green;
+}
+.front{
+    background-color: white;
+}
+#setting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#btn,#setSpeed{
+    display: block;
+    background-color: wheat;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 20%;
+    cursor: pointer;
+}
+#startcontainer{
+    height: 10rem;
+}
+#start{
+    width: 50%;
+    background-color: aqua;
+    padding: 2%;
+    cursor: pointer;
+}
+#controls{
+    width: 12rem;
+    height: 9rem;
+    margin: 0.5rem auto;
+}
+.cbtn{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+#left-rightb{
+    display: flex;
+    justify-content: space-between;
+}
+#mscore{
+    color: white;
+    display: flex;
+}
+#newGame{
+    display: block;
+    margin: 0.5rem 0 0 0.1rem;
+    padding: 0.3rem;
+    border-radius: 10%;
+    background-color: aqua;
+}
+#mspeed{
+    margin: 0.5rem;
+}

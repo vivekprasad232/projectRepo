@@ -1,0 +1,231 @@
+.Home {
+    text-align: center;
+    margin-top: 78px;
+  }
+  .hero-wrapper{
+    position: relative;
+  }
+  .hero-tag-cont{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #3e3e52;
+    z-index: 1;
+  }
+  .hero-image{
+    width: 100%;
+  }
+  .main-wrapper{
+    transform: translateY(-55%);
+    padding: 0 245px;
+  }
+  .toggle{
+    width: 48px;
+    padding: auto 15px;
+  }
+  #search-div{
+    display: flex;
+    background-color: white;
+    height: 83px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  .search-wrapper{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 8px 16px;
+  }
+  .input-box{
+    padding: 7px;
+    flex: 1;
+  }
+  .input-box:hover{
+    border: 1px solid lightblue ;
+    border-radius: 10px;
+  }
+  .input-area{
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+  }
+  label{
+    display: block;
+    text-align: left;
+    color: #3e3e52;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .location{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  #src,#dest,#date{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #src::placeholder,#dest::placeholder{
+    color: lightgray;
+    font-weight: 100;
+  }
+  .grey-vertical{
+    width: 1px;
+    height: 67px;
+    background: #cacaca;
+    border-radius: 2px;
+    margin: 0 14px;
+  }
+  #searchbtn{
+    height: 83px;
+    width: 160px;
+    background-color: #d74f57;
+    color: white;
+    letter-spacing: .5px;
+    border-radius: 0 8px 8px 0;
+    padding: 0;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .stats-wrapper{
+    padding: 5px 141px 3px;
+    text-align: center;
+  }
+  .stats-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 43px;
+    gap: 20px;
+    color: #4a4a4a;
+  }
+  .stats-item{
+    flex: 1;
+    border-radius: 23px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 1.5rem;
+  }
+  .img-cont{
+    height: 70%;
+    width: 100%;
+  }
+  .img-cont img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .item-details1{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 27px;
+  }
+  .item-details2{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .adv-wrapper{
+    width: 100%;
+    background-color: #f6f9ff;
+  }
+.adv-flexcontainer{
+  margin: 0 141px;
+  display: flex;
+  justify-content: space-between;
+}
+.adv-flex{
+  width: 317px;
+  margin: 50px 0;
+}
+.adv-image{
+  float: left;
+  padding-right: 17px;
+  width: 91px;
+  height: 72px;
+  display: block;
+}
+.adv-content{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.adv-head{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3e3e52;
+}
+.adv-desc{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .5px;
+  padding: 7px 0;
+}
+.mmt-wrapper{
+  padding: 30px 141px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.common-head {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #273965;
+  padding-bottom: 30px;
+}
+.mmt-container {
+  border: 1px solid #d1d1d1;
+  border-radius: 24px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.mmt-container:nth-child(2n){
+  flex-direction: row;
+}
+.mmt-container:nth-child(odd){
+  flex-direction: row-reverse;
+}
+.mmt-content{
+  font-size: 25px;
+  line-height: 34px;
+  flex: 1;
+  color: #4a4a4a;
+}
+.mmt-container:nth-child(2n) .mmt-content{
+  text-align: left;
+}
+.mmt-container:nth-child(odd) .mmt-content{
+  text-align: right;
+}
+.mmt-image{
+  display: inline-block;
+  vertical-align: middle;
+}
+.weare-img{
+  width: 100%;
+}
+.weare-wrapper{
+  padding: 35px 141px;
+  color: #3e3e52;
+  text-align: center;
+}
+.weare-head {
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 10px;
+}
+.weare-para {
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 30px;
+}

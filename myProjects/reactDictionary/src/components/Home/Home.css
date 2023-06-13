@@ -1,0 +1,65 @@
+#searchForm{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vw;
+}
+#searchForm input{
+    width: 13rem;
+    height: 2rem;
+}
+#navlist li:nth-child(2){
+    background-color: black;
+    color: white;
+    height:fit-content;
+    font-weight: 900;
+    font-size: 2vw;
+    padding: 1vw;
+    align-self: center;
+    cursor: pointer;
+}
+#navlist li:nth-child(1){
+    font-weight: 900;
+    font-size: 3vw;
+    padding: 1vw;
+}
+section{
+    margin: 8vw auto auto auto;
+    padding: 0 20vw;
+}
+#card{
+    background-color: lightgray;
+}
+#card button{
+    display: block;
+    margin: 2vw auto;
+}
+.nfound{
+    text-align: center;
+}
+.dictionaryimg{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    #searchForm{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5vw;
+    }
+    #searchForm input{
+        width: 10rem;
+        height: 1.5rem;
+    }
+    section{
+        margin: 1vw;
+        padding: 1vw;
+    }
+    #card button{
+        display: block;
+        margin: 5vw auto;
+    }
+    #card li,#card li ul{
+        padding-left: 1vw;
+    }
+}

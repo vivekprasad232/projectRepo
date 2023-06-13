@@ -1,0 +1,69 @@
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+#nvbr{
+    display: grid;
+    grid-template-columns: 10% 15% 75%;
+    width: 90vw;
+    margin: auto;
+}
+#redbus_logo{
+    margin: auto;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+.corner{
+    display: flex;
+    align-items: center;
+    color: #3e3e52;
+    margin-left: auto;
+    margin-right: 80px;
+}
+#user{
+    width: fit-content;
+    padding: 0.7rem;
+    /* background-color: red; */
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 15px;
+    /* color: white; */
+}
+#user:hover{
+    background-color: red;
+    color: white;
+}
+.wraptext{
+    display: flex;
+    align-items: center;
+    color: #3e3e52;
+}
+.transfer{
+    margin-left: 50px;
+}
+.langimg{
+    width: 35px;
+    height: 23px;
+}
+.downarrow{
+    width: 12px;
+    margin-left: 8px;
+    height: 12px;
+}
+.txtarrow{
+    width: 12px;
+    margin-left: 7px;
+    margin-top: 5px;
+    height: 12px;
+}
+.corneritem{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.hlp{
+    margin-right: 60px;
+}

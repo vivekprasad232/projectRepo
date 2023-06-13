@@ -1,0 +1,46 @@
+.card button{
+    margin: 1vw;
+}
+.card{
+    background-color: lightgray;
+    min-height: 10vw;
+}
+.more{
+    padding: 2vw 2vw;
+}
+.sydiv1{
+    width: fit-content;
+    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.synow{
+    font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+    .card button{
+        margin: 5vw;
+    }
+    .card{
+        background-color: lightgray;
+        min-height: 50vw;
+    }
+    h5{
+        margin: 2vw;
+    }
+    .more{
+        padding: 2vw 2vw 0.5vw 1vw;
+    }
+    .sydiv1{
+        width: fit-content;
+        margin: 2vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .synow{
+        font-weight: 900;
+    }
+    audio{
+        width: 60vw;
+    }
+}

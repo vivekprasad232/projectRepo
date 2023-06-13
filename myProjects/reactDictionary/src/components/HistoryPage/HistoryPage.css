@@ -1,0 +1,27 @@
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1vw;
+}
+section{
+    margin: 8vw auto auto auto;
+    padding: 0 20vw;
+}
+.empty{
+    background-color: lightgray;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+    font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+    #cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2vw;
+    }
+    section{
+        margin: 1vw;
+        padding: 1vw;
+    }
+}

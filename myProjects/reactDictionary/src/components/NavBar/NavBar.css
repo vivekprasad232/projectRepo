@@ -1,0 +1,36 @@
+nav{
+    margin: 5vw;
+    height: 2vw;
+    padding: 0 20vw;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        margin: 15vw 5vw 5vw 5vw;
+        height: auto;
+        padding: 0;
+    }
+    #navlist{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    #navlist li:nth-child(2){
+        background-color: black;
+        color: white;
+        height:fit-content;
+        font-weight: 900;
+        font-size: 5vw;
+        padding: 1vw;
+        align-self: center;
+    }
+    #navlist li:nth-child(1){
+        font-weight: 900;
+        font-size: 5vw;
+        padding: 1vw;
+    }
+}

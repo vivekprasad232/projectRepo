@@ -1,0 +1,64 @@
+#buslistcontainer1{
+    width: 90vw;
+    margin: auto;
+    background-color: #d74f57;
+    padding: 1vw;
+    margin-bottom: 38px;
+}
+.busdetails{
+    display: grid;
+    background-color: white;
+    margin: 1vw;
+    align-items: center;
+    padding: 0.5vw;
+    grid-template-columns: 1.2fr 1fr 1fr 0.6fr 1fr 0.8fr;
+}
+.font{
+    font-size: 2vw;
+    font-weight: bold;
+}
+.time .details{
+    font-size: 1.5vw;
+}
+.notfound{
+    font-size: 2vw;
+    color: white;
+}
+.sortby{
+    display: grid;
+    grid-template-columns: 1.2fr repeat(3,1fr);
+    background-color: white;
+    width: 50vw;
+    height: 3vw;
+    margin: auto;
+    align-items: center;
+}
+.srt{
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+.sortbtn{
+    cursor: pointer;
+    font-size: 1.2vw;
+    background-color: #d74f57;
+    color: white;
+    width: 6vw;
+    height: 2vw;
+    line-height: 2vw;
+    justify-self: center;
+}
+.viewsts{
+    width: 7vw;
+    height: 1.7vw;
+    background-color: #d74f57;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.rating{
+    background-color: green;
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 0.2rem;
+    margin: auto;
+}
